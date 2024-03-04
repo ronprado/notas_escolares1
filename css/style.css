@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    height: 550px;
+    width: 400px;
+    background-color: #186A8D;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.titulo{
+    margin: 18px 18px 18px 120px;
+}
+.head{
+    border-bottom: 2px solid white;
+}
+form{
+    margin-top: 20px;
+}
+label{
+    margin: 13px;
+}
+input{
+    margin: 4px 10px 13px 13px;
+    height: 25px;
+    width: 60px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.result{
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 90px;
+    width: 367px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: white;
+}
+.nome input{
+    height: 30px;
+    width: 367px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+}
+button{
+    margin: 10px 10px 10px 13px;
+    padding: 10px;
+    font-size: 18px;
+    width: 367px;
+    background-color: chocolate;
+    font-weight: bold;
+    color: black;
+}
